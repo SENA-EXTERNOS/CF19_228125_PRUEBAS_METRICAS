@@ -2,14 +2,155 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 5%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 19%
+    right: -8%
+    width: 35%
 
+.banner-principal__img 
+  top: 48px
+  left: -50px
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-principalt.png") !important        
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #FECB2F
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+    color: $white
+ 
+
+//tema1
+.etiqueta2
+  padding: 2px 6px 5px
+  margin-right: 5px
+  color: $black
+  background-color: #B5DAFC
+
+.fa-play
+  color: #EF3C79!important
+
+.Acordion-01
+  .tarjeta--gris  
+    background-color: #E8E8E8
+  .acordion__activo 
+    background-color: #FFF5D5 !important
+  .acordion__accion__btn--a
+    color: #61C8AF
+
+.color-acento-botones2
+  background-color: #61C8AF
+  span
+    color: $black !important
+  i
+    color: $black !important
+
+.color-linea
+  color: #61C8AF
+
+.pos-texto
+  position: relative
+  left: 186px
+
+.pos-comilla-f
+  position: relative
+  left: 21px
+
+.bloque-texto-b i:last-of-type 
+    margin-left: 168px
+    vertical-align: text-top
+
+.bloque-texto-b i 
+  font-size: 1.5em
+  color: #3BC192
+
+.bloque-texto-b.color-secundario:before
+  background-color: #CFE8FE
+
+//tema2
+.crd-paleBlue
+  background-color: #B5DAFC  
+
+.Acordion-02
+  .tarjeta--blanca  
+    background-color: $white
+    border-bottom: 1px solid
+  .acordion__activo 
+    background-color: #FFF5D5 !important
+
+//tema3
+.slyderf-01
+  .tarjeta-avatar 
+    height: 530px
+
+.clr-paleYellow      
+  background-color: #FFF5D5 
+
+.slyderA-img
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema3/tema3-img-06.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat  
+  border-radius: 15px
+
+  .slyder-a__tipo-b .slyder-a__btn--atrs
+    background-color: #21CBAE
+
+  .slyder-a__tipo-b .slyder-a__btn--sigt
+    background-color: #21CBAE
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs  
+    color: #AFAFAF
+    border: none
+
+  .slyder-a__bullets__item--active
+    background-color: #21CBAE !important
+    border: none
+
+  .slyder-a__bullets__item
+    background-color: #96DAD7 
+
+  .slyder-f__btn i
+      color: #EF3C79
+
+  .slyder-a__tipo-b
+    justify-content: space-between
+    top: -14px
+    width: 95%
+    left: 20px
+    @media (max-width:500px) 
+      top: 15px
+      left: 10px
+
+.crd--avatarHorizontal1
+  position: relative
+  padding-right: 5rem
+  & > *
+    position: relative
+  h5 
+    color: $black
+  p 
+    margin-bottom: 0
+    color: $black
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #FFF2CA
+    border-radius: 15px !important 
+  
+
+//tema4      
 
 @keyframes float1
   0%
