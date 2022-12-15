@@ -55,22 +55,22 @@
       SlyderA(tipo="b")(data-aos="fade-left") 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-md-0
-            p Las restricciones siguen siendo un desafío fundamental para el desarrollo y la entrega de #[i software] oportuno, rentable y de alta calidad. Un área de enfoque para muchos equipos de desarrollo es la simulación y/o creación de apéndices del código de la aplicación para reducir las dependencias de los componentes del entorno de la aplicación.
+            p.texto-slyder.p-3 Las restricciones siguen siendo un desafío fundamental para el desarrollo y la entrega de #[i software] oportuno, rentable y de alta calidad. Un área de enfoque para muchos equipos de desarrollo es la simulación y/o creación de apéndices del código de la aplicación para reducir las dependencias de los componentes del entorno de la aplicación.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema3/tema3-img-07.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/tema3-img-07.svg', alt='Texto que describa la imagen').p-3
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0
-            p Las tres opciones que se utilizan tradicionalmente para resolver este problema de restricción son el código interno escrito por el desarrollador, las herramientas propietarias o las herramientas de código abierto, incluido Mockito. Sin embargo, existe una solución mucho más elegante: la virtualización de servicios.
+            p.texto-slyder.p-3 Las tres opciones que se utilizan tradicionalmente para resolver este problema de restricción son el código interno escrito por el desarrollador, las herramientas propietarias o las herramientas de código abierto, incluido Mockito. Sin embargo, existe una solución mucho más elegante: la virtualización de servicios.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema3/tema3-img-08.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/tema3-img-08.svg', alt='Texto que describa la imagen').p-3
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0
-            p Cuando los ingenieros de #[i software], los evaluadores y los administradores de sistemas escuchan por primera vez acerca de la virtualización de servicios, pueden confundirla con la virtualización de servidores o las máquinas virtuales.
+            p.texto-slyder.p-3 Cuando los ingenieros de #[i software], los evaluadores y los administradores de sistemas escuchan por primera vez acerca de la virtualización de servicios, pueden confundirla con la virtualización de servidores o las máquinas virtuales.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema3/tema3-img-09.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/tema3-img-09.svg', alt='Texto que describa la imagen').p-3
     
     separador 
 
@@ -87,7 +87,7 @@
     p.mb-3 Shift-Left trata de descubrir tantos problemas como sea posible lo antes posible en el proceso de desarrollo de #[i software], de modo que el costo de solucionarlos esté bajo control y también contribuya a mejorar la calidad de los productos enviados. Se concentra en hallar errores en las fases de diseño y desarrollo mucho más que en el resto, para en producción no tenerlos. Veamos los beneficios que aporta.
 
     .row.justify-content-around.align-items-center.mb-3
-      .col-10
+      .col-lg-10
         .row.justify-content-center.mb-3
           .col-lg-12.position-relative
             .crd.crd--avatarHorizontal1.py-4
@@ -147,7 +147,7 @@
           p Estimado aprendiz, lo invitamos a ver el siguiente video en el que veremos el paso a paso en la implementación de las diferentes pruebas para aplicar con éxito el enfoque #[i Shift-left].
 
     .row
-      figure.mb-5.mt-3
+      figure.mt-3
         .video
          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

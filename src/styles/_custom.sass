@@ -24,8 +24,20 @@
 .titulo-principal.color-acento-contenido .titulo-principal__numero span 
     color: $white
  
+.index-dos
+  position: relative
+  z-index: 2
 
 //tema1
+.tema1-decorativa-01
+  position: absolute
+  top: 3%
+  left: 3%
+  width: 36%
+  @media (max-width: 500px)
+    top: 2.8%
+    width: 62%
+
 .etiqueta2
   padding: 2px 6px 5px
   margin-right: 5px
@@ -55,15 +67,17 @@
 
 .pos-texto
   position: relative
-  left: 186px
+  left: 165px
+  @media (max-width: 500px)
+    left: 53px
 
 .pos-comilla-f
   position: relative
   left: 21px
 
 .bloque-texto-b i:last-of-type 
-    margin-left: 168px
-    vertical-align: text-top
+  margin-left: 168px
+  vertical-align: text-top
 
 .bloque-texto-b i 
   font-size: 1.5em
@@ -71,6 +85,11 @@
 
 .bloque-texto-b.color-secundario:before
   background-color: #CFE8FE
+
+.bloque-texto-b:before 
+  left: 31% 
+  @media (max-width:500px) 
+    left: 19%
 
 //tema2
 .crd-paleBlue
@@ -126,8 +145,18 @@
     width: 95%
     left: 20px
     @media (max-width:500px) 
-      top: 15px
+      top: 0px
       left: 10px
+  
+  @media (max-width: 500px)
+    height: 600px
+
+.texto-slyder
+  @media (max-width: 500px)
+    position: relative
+    left: 70px
+    top: 20px
+    margin-right: 50px
 
 .crd--avatarHorizontal1
   position: relative
@@ -150,7 +179,37 @@
     border-radius: 15px !important 
   
 
-//tema4      
+//tema4   
+
+.tarjeta-slide 
+  height: 90%
+
+.tarjeta-slide.arriba.color-secundario
+  background-color: #DEE4F0  
+  p 
+    color: $black
+    b
+      color: $black
+    i
+      color: $black 
+
+.crd.color-secundario
+  background-color: #0D4AAD
+  p
+    color: $white      
+
+.clr-paleGray
+  background-color: #F6F6F6
+
+.clr-paleBlue    
+  background-color: #E8FAF7
+
+.slyderf-02
+  .tarjeta-avatar 
+    height: 400px  
+
+.cajon.color-primario 
+  background-color: #E6CBD4  
 
 @keyframes float1
   0%
