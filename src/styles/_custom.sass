@@ -2,18 +2,26 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 5%
-    right: 70%
+    top: 18%
+    right: 80%
+    width: 48%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 19%
-    right: -8%
-    width: 35%
+    top: 16%
+    right: -23%
+    width: 48%
+
+.banner-principal__row 
+  width: 68%
 
 .banner-principal__img 
   top: 48px
-  left: -50px
+  left: 250px
+
+.banner-principal__info 
+  position: relative
+  left: 50px
 
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/fondo-banner-principalt.png") !important        
@@ -102,10 +110,15 @@
   .acordion__activo 
     background-color: #FFF5D5 !important
 
+.col-img
+  width: 12.333333%
 //tema3
 .slyderf-01
   .tarjeta-avatar 
-    height: 530px
+    height: 650px
+    @media (max-width:500px) 
+      height: 795px
+    
 
 .clr-paleYellow      
   background-color: #FFF5D5 
@@ -207,6 +220,8 @@
 .slyderf-02
   .tarjeta-avatar 
     height: 400px  
+    @media (max-width:500px) 
+      height: 550px
 
 .cajon.color-primario 
   background-color: #E6CBD4  

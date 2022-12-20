@@ -26,23 +26,23 @@
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema3/tema3-img-02.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.text-center En pocas palabras, los #[i scripts] de prueba de automatización son los #[i scripts] preparados antes de ejecutar la prueba. Cuando sea necesario, estos ejecutarán los códigos de las aplicaciones web para comprobar si cumplen o no los requisitos.
+              p.p-4.text-center En pocas palabras, los #[i scripts] de prueba de automatización son los #[i scripts] preparados antes de ejecutar la prueba. Cuando sea necesario, estos ejecutarán los códigos de las aplicaciones web para comprobar si cumplen o no los requisitos.
 
 
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema3/tema3-img-03.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4            
-              p.text-center Cuando se trata de pruebas automatizadas, es difícil para los testers o personas con el rol de pruebas ser buenos sin tener conocimientos de programación. Pero con el tiempo la herramienta de prueba ha madurado para simplificar el proceso de prueba. Hay muchas herramientas sin código en el mercado que proporcionan el entorno gráfico para que los probadores puedan crear fácilmente casos de prueba.
+              p.p-4.text-center Cuando se trata de pruebas automatizadas, es difícil para los testers o personas con el rol de pruebas ser buenos sin tener conocimientos de programación. Pero con el tiempo la herramienta de prueba ha madurado para simplificar el proceso de prueba. Hay muchas herramientas sin código en el mercado que proporcionan el entorno gráfico para que los probadores puedan crear fácilmente casos de prueba.
 
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema3/tema3-img-04.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.text-center Una de estas herramientas bastante usada es Selenium. Selenium es un kit o conjunto de utilidades para facilitar el trabajo de obtener casos de pruebas en las aplicaciones web. Para ello, se pueden grabar, editar y depurar casos de prueba que podrán ser ejecutados de forma automática e iterativa posteriormente.
+              p.p-4.text-center Una de estas herramientas bastante usada es Selenium. Selenium es un kit o conjunto de utilidades para facilitar el trabajo de obtener casos de pruebas en las aplicaciones web. Para ello, se pueden grabar, editar y depurar casos de prueba que podrán ser ejecutados de forma automática e iterativa posteriormente.
           
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema3/tema3-img-05.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.text-center Las pruebas automatizadas ayudan a eliminar tareas que consumen demasiado tiempo y son demasiado tediosas para realizarlas manualmente; además, las pruebas automatizadas se pueden ejecutar repetidamente una vez que se han creado. En otras palabras, las pruebas automatizadas ayudan a aumentar la eficacia y la eficiencia de las pruebas de #[i #[b software]].
+              p.p-4.text-center Las pruebas automatizadas ayudan a eliminar tareas que consumen demasiado tiempo y son demasiado tediosas para realizarlas manualmente; además, las pruebas automatizadas se pueden ejecutar repetidamente una vez que se han creado. En otras palabras, las pruebas automatizadas ayudan a aumentar la eficacia y la eficiencia de las pruebas de #[i #[b software]].
     
     separador
 

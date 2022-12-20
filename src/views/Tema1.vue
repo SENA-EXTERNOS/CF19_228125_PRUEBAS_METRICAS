@@ -59,7 +59,7 @@
       .col-lg-10
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-3.col-sm-2.col-img
               img(src="@/assets/curso/temas/tema1/tema1-img-04.svg")
             .col-9
               p.text-small #[b Nota:] algunos mencionan que un requisito es lo mismo que un #[b requerimiento]. En teoría podrían ser iguales, pero más exactamente, un requerimiento es lo que el cliente solicita, mientras un requisito es lo que debe cumplir el #[i software].
@@ -105,7 +105,7 @@
       .col-lg-10
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-3.col-sm-2.col-lg-1.col-img
               img(src="@/assets/curso/temas/tema1/tema1-img-07.svg")
             .col
               .row.justify-content-between.align-items-center
@@ -131,7 +131,7 @@
           .col-lg-12
             .tarjeta.color-secundario.p-3.mb-5
               .row.justify-content-around.align-items-center
-                .col-3
+                .col-2
                   img(src="@/assets/curso/temas/tema1/tema1-img-09.svg")
                 .col-9
                   p.text-small #[b Nota:] Para el desarrollo de productos #[i software] de calidad existen un sinnúmero de modelos y #[i framewoks] que dependen de los autores. Al igual que los requisitos funcionales y atributos de calidad también pueden variar, pero muchos de ellos mencionados anteriormente son en común de manera universal.

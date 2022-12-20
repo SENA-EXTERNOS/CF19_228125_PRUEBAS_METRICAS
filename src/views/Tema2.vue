@@ -11,7 +11,7 @@
 
     .Acordion-02
       AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--blanca")(data-aos="fade-left") 
-        #t_2_1.row(titulo="Basadas en la especificación")
+        .row(titulo="Basadas en la especificación")
           .col-md-12.mb-4.mb-md-0
             p.mb-2 Estas técnicas usan la especificación del sistema a probar para generar, usando algún tipo de algoritmo, casos de prueba, sin conocer la estructura interna de dicho sistema a probar. También llamadas pruebas de caja negra. La prueba de caja negra se refiere a un método o técnica de prueba en el que se le considera al #[i software] como una caja negra, sin preocuparse por los detalles de implementación, el conocimiento de la ruta interna y la estructura del código interno del #[i software]. Esta técnica de prueba se basa completamente en las especificaciones y requisitos del #[i software]. El enfoque de la prueba de caja negra está en la salida y las entradas del sistema de #[i software] en lugar del conocimiento interno del programa. 
             p.mb-2 El sistema que se somete a este tipo de pruebas es el que se considera como la “caja negra”, que puede ser cualquier #[i software] como una base de datos, un sitio web o un sistema operativo, etc. Las pruebas de caja negra se centran en probar la funcionalidad completa del sistema, así como el comportamiento de este. 
@@ -44,7 +44,7 @@
                 img(src='@/assets/curso/temas/tema2/tema2-img-01.svg', alt='Texto que describa la imagen')
             p Los tipos de prueba de caja negra pueden ser: funcional, de regresión y no funcional.    
 
-        #t_2_2.row(titulo="Basadas en el código")
+        .row(titulo="Basadas en el código")
           .col-md-7.mb-4.mb-md-0
             p.mb-2 Estas técnicas se encargan de generar casos de prueba en función de un criterio de cobertura del código, que indicará cómo generar los casos de prueba, así como el criterio de parada, es decir, cuándo se debe parar de generar casos de prueba porque ya se ha alcanzado el nivel de cobertura del código esperado. Entre los criterios de cobertura existentes se encuentran:
             ul.lista-ul--color
@@ -58,7 +58,7 @@
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-02.svg', alt='Texto que describa la imagen')
-        #t_2_3.row(titulo="Basadas en errores")
+        .row(titulo="Basadas en errores")
           .col-md-7.mb-4.mb-md-0
             p.mb-2 Este tipo de técnicas de pruebas son basadas en el uso de casos de prueba especialmente diseñados para revelar fallos probables o predefinidos. Entre los que se encuentran:
             ul.lista-ul--color
@@ -79,14 +79,14 @@
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-03.svg', alt='Texto que describa la imagen')
 
-        #t_2_4.row(titulo="Basadas en el uso")
+        .row(titulo="Basadas en el uso")
           .col-md-7.mb-4.mb-md-0
             p Las técnicas de pruebas basadas en el uso tratan de evaluar la fiabilidad del #[i software] cuando es utilizado de la misma forma que lo usan los usuarios finales en el entorno de producción, con la finalidad de que los defectos puedan aparecer antes de que sea usado por usuarios reales. La fiabilidad del #[i software] se define como la probabilidad de que un sistema #[i software] funcione correctamente sin que se produzca ningún fallo durante un intervalo de tiempo, bajo una serie de condiciones.
         
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-04.svg', alt='Texto que describa la imagen')
-        #t_2_5.row(titulo="Basadas en la naturaleza de la aplicación")
+        .row(titulo="Basadas en la naturaleza de la aplicación")
           .col-md-7.mb-4.mb-md-0
             p.mb-2 Las técnicas de pruebas explicadas anteriormente pueden ser aplicadas a cualquier tipo de #[i software]. Sin embargo, existen técnicas de pruebas más específicas para realizar las pruebas de forma más eficiente y eficaz para algunos tipos de aplicaciones. Por ejemplo, es posible encontrar técnicas de pruebas específicas para los siguientes tipos de aplicaciones:
             ul.lista-ul--color
@@ -112,7 +112,7 @@
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-05.svg', alt='Texto que describa la imagen')
-        #t_2_6.row(titulo="Basadas en la finalidad de las mismas")
+        .row(titulo="Basadas en la finalidad de las mismas")
           .col-md-7.mb-4.mb-md-0
             p.mb-2 Las pruebas del #[i software] se llevan a cabo con la finalidad de realizar algún tipo de comprobación. Por un lado, los casos de prueba pueden ser diseñados para comprobar que las especificaciones funcionales se han implementado correctamente, pero también se pueden utilizar para comprobar otro tipo de aspectos más específicos, dando lugar a otros tipos de pruebas según su finalidad. Algunos ejemplos son los siguientes:
             ul.lista-ul--color
