@@ -15,12 +15,10 @@
         img(src="@/assets/curso/temas/tema4/tema4-img-01.svg")  
 
     separador
+    h2 #[i Rational Test Virtualization Server]
 
-    #t_4_1.titulo-segundo.color-acento-contenido.mt-5
-      h2 4.1 #[i Rational Test Virtualization Server]
-
-    p.mb-3 Permite pruebas tempranas y frecuentes en el ciclo de vida del desarrollo. Elimina las dependencias al virtualizar parte o la totalidad de una aplicación o base de datos, por lo que los equipos de prueba de #[i software] no tienen que esperar a que comience la disponibilidad de esos recursos.
-    p.mb-3 Menciona, según el proveedor, los beneficios y características: 
+    p.mb-3 Permite pruebas tempranas y frecuentes en el ciclo de vida del desarrollo. Elimina las dependencias al virtualizar parte o la totalidad de una aplicación o base de datos, por lo que los equipos de prueba de #[i software], no tienen que esperar a que comience la disponibilidad de esos recursos.
+    p.mb-3 Algunos beneficios y características son:
 
     .row.mb-3
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -83,9 +81,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/tema4-img-09.svg')})`}")                      
     
     separador
-
-    #t_4_2.titulo-segundo.color-acento-contenido.mt-5
-      h2 4.2 #[i Rational Test Workbench]
+    h2 #[i Rational Test Workbench]
     
     .crd.clr-paleGray
       .row.mb-3
@@ -146,7 +142,7 @@
             .tarjeta.color-secundario.p-4              
               p.p-4.text-center Establecimiento de precios y despliegue flexibles. Se da la opción de ganar IBM #[i FlexPoints] de agilidad, que se pueden adquirir y asignar de acuerdo con las necesidades exclusivas de su negocio.
 
-    p.mb-3 La virtualización de servicios suele confundirse con el Mockeo (#[i Mocking] o imitación) y la creación de #[i stubs] de simulación, pero no son lo mismo.
+    p.mb-3 La virtualización de servicios suele confundirse con el Mockeo (Mocking o imitación) y la creación de #[i stubs] de simulación, pero no son lo mismo. Veamos:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12
@@ -159,7 +155,7 @@
     .row.justify-content-center
       .col-lg-8
         .cajon.color-primario.p-3
-          p Estimado aprendiz, recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.       
+          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
 

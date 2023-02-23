@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Pruebas y métricas',
     descripcionCurso:
-      'El componente formativo 19 está diseñado con el fin de que el estudiante adquiera los conocimientos sobre conceptos necesarios para su formación, tales como: técnicas de pruebas, pruebas, <i>Rational Test</i>.',
+      'El componente formativo, está diseñado con el fin que el estudiante adquiera los conocimientos sobre conceptos necesarios para su formación, tales como: técnicas de pruebas, pruebas, <i>Rational Test</i>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -50,26 +50,6 @@ export default {
         numero: '3',
         titulo: 'Pruebas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Automatización de pruebas',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Virtualización de servicios',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Enfoques <i>Shift Left</i>',
-            hash: 't_3_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -77,20 +57,6 @@ export default {
         numero: '4',
         titulo: '<i>Rational Test</i>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: '<i>Rational Test Virtualization Server</i>',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: '<i>Rational Test Workbench</i>',
-            hash: 't_4_2',
-          },
-        ],
       },
     ],
     subMenu: [

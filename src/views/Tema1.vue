@@ -18,21 +18,14 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p En este orden de ideas, es importante entender que la ruta de desarrollo de #[i software] va desde el análisis, el diseño, la implementación, las pruebas, hasta el mantenimiento. Antes de seguir abordando esta secuencia temática es importante hacer una claridad acerca del concepto de calidad, que, de hecho, no es algo sencillo de definir y que ha tenido una evolución a través de los años. Echeverry (2008) define calidad como:
-          |
-          span.etiqueta2 “Totalidad de propiedades y características de un producto, proceso o servicio que le confiere su aptitud para satisfacer unas necesidades expresadas o implícitas.”, una definición
-          | tomada de la ISO 8402. Por otro lado, en Significados (2022), se da otro concepto sobre calidad: “Capacidad que
-          |
-          span.etiqueta2  posee un objeto para satisfacer necesidades implícitas o explícitas según un parámetro, un cumplimiento de requisitos de calidad”. Según la IEEE, se entiende
-          | como: “el grado con el que un
-          |
-          span.etiqueta2 sistema, componente o proceso cumple los requerimientos especificados y las necesidades o expectativas del cliente o usuario”.
-
+        .bloque-texto-1
+            .bloque-texto-1__texto      
+              p En este orden de ideas, es importante entender que la ruta de desarrollo de #[i software] va desde el análisis, el diseño, la implementación, las pruebas, hasta el mantenimiento. Antes de seguir abordando esta secuencia temática, es importante hacer una claridad acerca del concepto de calidad, que, de hecho, no es algo sencillo de definir y que ha tenido una evolución a través de los años. Echeverry (2008) define calidad como: “Totalidad de propiedades y características de un producto, proceso o servicio que le confiere su aptitud para satisfacer unas necesidades expresadas o implícitas”, definición tomada de la ISO 8402. Por otro lado, en Significados (2022), se da otro concepto sobre calidad: “Capacidad que posee un objeto para satisfacer necesidades implícitas o explícitas, según un parámetro, un cumplimiento de requisitos de calidad”. Según la IEEE, se entiende como: “el grado con el que un sistema, componente o proceso, cumple los requerimientos especificados y las necesidades o expectativas del cliente o usuario”.
       .col-lg-5
         img(src="@/assets/curso/temas/tema1/tema1-img-02.svg")  
 
-    p.mb-3.mt-3 Para cualquier persona un producto o servicio puede ser considerado de “buena” calidad, mientras que, para otros, de “mala” calidad. El #[i software] se puede considerar como un servicio o producto y la calidad se puede aplicar también a nuestros productos #[i software]. En el desarrollo de #[i software] los atributos de calidad se dan a partir de los requisitos No funcionales del sistema, que, como su nombre lo menciona, son aquellos que no hace “directamente” el #[i software]. Por otro lado, una definición “formal” de #[b requisitos No funcionales] puede encontrarse en un sinnúmero de textos sobre Ingeniería de #[i software], sin embargo, aquí lo vamos a entender como “la manera en que los requisitos funcionales necesitan ser alcanzados”.
-    p.mb-5 Veamos algunos de los requisitos no funcionales según Tsu (2022):        
+    p.mb-3.mt-3 Para cualquier persona, un producto o servicio puede ser considerado de “buena” calidad, mientras que, para otros, de “mala” calidad. El #[i software] se puede considerar como un servicio o producto y la calidad se puede aplicar también a nuestros productos #[i software]. En el desarrollo de #[i software], los atributos de calidad se dan a partir de los requisitos No funcionales del sistema, que, como su nombre lo dice, son aquellos que el #[i software] no hace “directamente”. Por otro lado, una definición “formal” de requisitos No funcionales puede encontrarse en un sinnúmero de textos sobre ingeniería de software; sin embargo, aquí lo vamos a entender como “la manera en que los requisitos funcionales necesitan ser alcanzados”.
+    p.mb-5 Veamos algunos de los requisitos No funcionales, según Tsu (2022):        
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
@@ -75,31 +68,31 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             .row(titulo="Funcionalidad")
               .col-md-12.mb-4.mb-md-0
-                p es el grado en que el #[i software] satisface las necesidades indicadas.
+                p Es el grado en que el #[i software] satisface las necesidades indicadas.
             .row(titulo="Confiabilidad")
               .col-md-12.mb-4.mb-md-0
-                p cantidad de tiempo que el #[i software] está disponible para su uso.
+                p Cantidad de tiempo que el #[i software] está disponible para su uso.
             .row(titulo="Usabilidad")
               .col-md-12.mb-4.mb-md-0
-                p grado en que el #[i software] es fácil de usar.
+                p Grado en que el #[i software] es fácil de usar.
             .row(titulo="Eficiencia")
               .col-md-12.mb-4.mb-md-0
-                p grado en que el #[i software] hace óptimo el uso de los recursos del sistema.
+                p Grado en que el #[i software] hace óptimo el uso de los recursos del sistema.
             .row(titulo="Facilidad de mantenimiento")
               .col-md-12.mb-4.mb-md-0
-                p la facilidad con que una modificación puede ser realizada.
+                p La facilidad con que una modificación puede ser realizada.
             .row(titulo="Portabilidad")
               .col-md-12.mb-4.mb-md-0
-                p la facilidad con que el #[i software] puede ser llevado de un entorno a otro.
+                p La facilidad con que el #[i software] puede ser llevado de un entorno a otro.
 
     p.mb-3 Los factores que afectan la calidad se pueden categorizar en dos (2) grandes grupos, tales como: factores que se pueden medir directamente y factores que se pueden medir sólo indirectamente. En todos los casos debería aparecer la medición, se debe comparar el #[i software] con una referencia y llegar a una conclusión sobre su calidad. La propuesta de McCal en Pressman (2006) sobre los factores que afectan la calidad del #[i software] están enfocados en tres aspectos importantes como lo son: sus características operativas, su capacidad de cambios, y su adaptabilidad a nuevos entornos.
-    p.mb-4 Estos factores fueron propuestos en los años 70, sin embargo, hoy en día siguen siendo válidos incluso para aplicaciones #[i software] modernas.                
+    p.mb-4 Estos factores fueron propuestos en los años 70, sin embargo, hoy en día, siguen siendo válidos, incluso para aplicaciones modernas de #[i software]:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12
         img(src="@/assets/curso/temas/tema1/tema1-img-06.png")  
 
-    p.mb-4 Para una mayor claridad, veamos la siguiente tabla en la que se ilustra la relación entre los factores y métricas de calidad.                      
+    
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -110,7 +103,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small #[b Para una mayor claridad de este tema, veamos la siguiente tabla en la que se ilustra la relación entre los factores y métricas de calidad.]
+                  b.text-small Para una mayor claridad de este tema, veamos la siguiente tabla en la que se ilustra la relación entre los factores y métricas de calidad:
                 .col-sm-auto
                   a.boton.color-acento-botones2(:href="obtenerLink('/downloads/factor-de-calidad.pdf')" target="_blank")
                     span Descargar
@@ -118,7 +111,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-7
-        p.mb-0 Antes de referirnos al término de #[b métrica], lee esta definición:
+        p.mb-0 Antes de referirnos al término de #[b métrica], lea esta definición:
         hr.color-linea.mb-0
         .bloque-texto-b.color-secundario.p-4.mb-3
           .bloque-texto-b__texto

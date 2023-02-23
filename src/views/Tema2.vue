@@ -7,7 +7,7 @@
         span 2
       h1 Técnicas de prueba
 
-    p.mb-4 Nuestros productos #[i software] deben ser probados para medir su calidad y que cumplan con las especificaciones planteadas iniciales o los cambios que se puedan realizar durante su proceso de desarrollo; las pruebas hacen parte del ciclo de desarrollo del #[i software]. A continuación, se abordan conceptos sobre las diferentes técnicas de pruebas.      
+    p.mb-4 Los productos #[i software] deben ser probados para medir su calidad y que cumplan con las especificaciones planteadas iniciales o los cambios que se puedan realizar durante su proceso de desarrollo; las pruebas hacen parte del ciclo de desarrollo del #[i software]. A continuación, se abordan conceptos sobre las diferentes técnicas de pruebas:
 
     .Acordion-02
       AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--blanca")(data-aos="fade-left") 
