@@ -101,40 +101,33 @@ export default {
   },
   complementario: [
     {
-      tema: 'Calidad del <i>software</i> e ingeniería de la usabilidad',
-      referencia: 'Artículo de noticias en línea·2012·Mascheroni',
-      tipo: 'Artículo',
-      link: 'http://sedici.unlp.edu.ar/handle/10915/19202',
-    },
-    {
-      tema: 'Ingeniería de la Usabilidad',
+      tema: 'Técnicas de prueba',
       referencia:
-        'Mascheroni, M. A. (2012, 6 agosto). <i>Calidad de software e ingeniería de usabilidad</i>.',
+        'Mascheroni, M. A. (2012). <em>Calidad de software e ingeniería de usabilidad.</em>',
       tipo: 'Texto',
       link:
         'https://utncomunicacionprofesional.files.wordpress.com/2012/04/ingenieria-de-sitios-web.pdf',
     },
     {
-      tema: '<i>Unit testing</i>',
+      tema: 'Pruebas',
       referencia:
-        'İnan, E. (2022, 23 febrero). <i>What is Unit Testing? - HardwareAndro</i>. ',
+        'İnan, E. (2022). <em>What is Unit Testing? - HardwareAndro</em>.',
       tipo: 'Texto',
       link:
         'https://medium.com/hardwareandro/what-is-unit-testing-435e8134b16e',
     },
     {
-      tema: '<i>Best practices for test automation</i>',
+      tema: '<i>Rational Test</i>',
       referencia:
-        'Galani, L. (2022, 21 marzo). <i>Best practices for test automation - assert(QA)</i>.',
+        'Galani, L. (2022). <em>Best practices for test automation - assert(QA)</em>.',
       tipo: 'Artículo',
       link:
         'https://medium.com/assertqualityassurance/best-practices-for-test-automation-536e7a94ded4',
     },
-
     {
-      tema: '<i>Unit Testing with JUnit and Mockito</i>',
+      tema: '<i>Rational Test</i>',
       referencia:
-        'Weidner, F. A. G. (2022, 5 enero). <i>Unit Testing with JUnit and Mockito - Ana Flávia G Weidner.</i> ',
+        'Weidner, F. A. G. (2022, 5). <em>Unit Testing with JUnit and Mockito - Ana Flávia G Weidner</em>.',
       tipo: 'Artículo',
       link:
         'https://medium.com/@anaflaviagw/unit-testing-with-junit-and-mockito-55330d93b8a0',
@@ -194,43 +187,32 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'IBM (2022)',
+      referencia: 'IBM. (2022).',
       link: 'https://www.ibm.com/',
     },
     {
       referencia:
-        'López Echeverry, et al. (2008). Introducción a la calidad de software. <i>Scientia Et Technica</i>, 2(39).',
+        'López Echeverry, <em>et al</em>. (2008). Introducción a la calidad de software. <em>Scientia Et Technica, 2</em>(39).',
       link: 'https://doi.org/10.22517/23447214.3241',
     },
     {
       referencia:
-        'Mascheroni, M. et al. (2012). <i>Calidad de software e Ingeniería de Usabilidad</i>. XIV Workshop de investigadores en ciencias de la computación',
-      link: 'https://core.ac.uk/download/pdf/301039589.pdf',
-    },
-    {
-      referencia: 'Significados (2022)',
-      link: 'https://www.significados.com/calidad/',
+        'Mascheroni, M. A. (2012). <em>Calidad de software e ingeniería de usabilidad</em>.',
+      link:
+        'https://utncomunicacionprofesional.files.wordpress.com/2012/04/ingenieria-de-sitios-web.pdf',
     },
     {
       referencia:
-        'Pressman (2006). <i>Ingeniería de software, un enfoque práctico</i>, 5ª. Edición. Editorial Pressman.',
+        'Pressman. (2006). <em>Ingeniería de software, un enfoque práctico</em>, 5ª. Edición. Editorial Pressman.',
+      link: '',
     },
     {
       referencia:
-        'Tsui (2022). <i>Essential of Software Engineering</i>, 5a. edición. JB Learning.',
+        'Tsui .(2022). <em>Essential of Software Engineering</em>, 5a. edición. JB Learning.',
     },
     {
-      referencia: 'Torcivia, M. (2020). Shift-left-Testing. Medium',
+      referencia: 'Torcivia, M. (2020). <em>Shift-left-Testing</em>. Medium.',
       link: 'https://medium.com/globant/shift-left-testing-c838521617b0',
-    },
-    {
-      referencia:
-        'Universidad de Alicante. (2022). ¿Qué es la accesibilidad web',
-      link: 'http://accesibilidadweb.dlsi.ua.es/',
-    },
-    {
-      referencia: 'Accesibilidad Web (2022)',
-      link: 'http://accesibilidadweb.dlsi.ua.es/',
     },
   ],
   creditos: {
