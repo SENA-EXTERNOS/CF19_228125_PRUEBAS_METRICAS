@@ -193,7 +193,8 @@ export default {
     {
       referencia:
         'López Echeverry, <em>et al</em>. (2008). Introducción a la calidad de software. <em>Scientia Et Technica, 2</em>(39).',
-      link: 'https://doi.org/10.22517/23447214.3241',
+      link:
+        'https://revistas.utp.edu.co/index.php/revistaciencia/article/view/3241',
     },
     {
       referencia:
