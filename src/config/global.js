@@ -55,7 +55,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: '<i>Rational Test</i>',
+        titulo: '<em>Rational Test</em>',
         desarrolloContenidos: true,
       },
     ],

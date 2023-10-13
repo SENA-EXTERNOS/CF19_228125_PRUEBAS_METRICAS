@@ -18,13 +18,13 @@
     h2 Automatización de pruebas
     
     .crd.clr-paleYellow
-      p.p-3.mb-3 Veamos ahora la prueba automatizada, que es un método que utiliza una herramienta de prueba de automatización para escribir y ejecutar un caso de prueba o conjunto de pruebas de automatización en la aplicación de #[i software], comparando los resultados reales con el comportamiento esperado y creando informes de prueba:
+      p.p-3.mb-3 Veamos ahora la prueba automatizada, que es un método que utiliza una herramienta de prueba de automatización para escribir y ejecutar un caso de prueba o conjunto de pruebas de automatización en la aplicación de #[em software], comparando los resultados reales con el comportamiento esperado y creando informes de prueba:
       .slyderf-01.p-3.mb-3
         SlyderF(columnas="col-lg-6 col-xl-4")
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema3/tema3-img-02.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.p-4.text-center En pocas palabras, los #[i scripts] de prueba de automatización son los #[i scripts] preparados antes de ejecutar la prueba. Cuando sea necesario, estos ejecutarán los códigos de las aplicaciones web para comprobar si cumplen o no los requisitos.
+              p.p-4.text-center En pocas palabras, los #[em scripts] de prueba de automatización son los #[em scripts] preparados antes de ejecutar la prueba. Cuando sea necesario, estos ejecutarán los códigos de las aplicaciones web para comprobar si cumplen o no los requisitos.
 
 
           .tarjeta-avatar
@@ -40,18 +40,18 @@
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema3/tema3-img-05.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.p-4.text-center Las pruebas automatizadas ayudan a eliminar tareas que consumen demasiado tiempo y son demasiado tediosas para realizarlas manualmente; además, las pruebas automatizadas se pueden ejecutar repetidamente una vez que se han creado. En otras palabras, las pruebas automatizadas ayudan a aumentar la eficacia y la eficiencia de las pruebas de #[i #[b software]].
+              p.p-4.text-center Las pruebas automatizadas ayudan a eliminar tareas que consumen demasiado tiempo y son demasiado tediosas para realizarlas manualmente; además, las pruebas automatizadas se pueden ejecutar repetidamente una vez que se han creado. En otras palabras, las pruebas automatizadas ayudan a aumentar la eficacia y la eficiencia de las pruebas de #[em #[b software]].
     
     separador
     h2 Virtualización de servicios
     p La virtualización es una salida para resolver este problema de restricción son el código interno escrito por el desarrollador.
-    p.mb-4 El tiempo de comercialización, los costos de desarrollo y la calidad de la aplicación, son las principales prioridades para las organizaciones que desarrollan #[i software]. Veamos:
+    p.mb-4 El tiempo de comercialización, los costos de desarrollo y la calidad de la aplicación, son las principales prioridades para las organizaciones que desarrollan #[em software]. Veamos:
 
     .slyderA-img
       SlyderA(tipo="b")(data-aos="fade-left") 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-md-0
-            p.texto-slyder.p-3 Las restricciones siguen siendo un desafío fundamental para el desarrollo y la entrega de #[i software] oportuno, rentable y de alta calidad. Un área de enfoque para muchos equipos de desarrollo es la simulación y/o creación de apéndices del código de la aplicación para reducir las dependencias de los componentes del entorno de la aplicación.
+            p.texto-slyder.p-3 Las restricciones siguen siendo un desafío fundamental para el desarrollo y la entrega de #[em software] oportuno, rentable y de alta calidad. Un área de enfoque para muchos equipos de desarrollo es la simulación y/o creación de apéndices del código de la aplicación para reducir las dependencias de los componentes del entorno de la aplicación.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema3/tema3-img-07.svg', alt='Texto que describa la imagen').p-3
@@ -63,22 +63,22 @@
               img(src='@/assets/curso/temas/tema3/tema3-img-08.svg', alt='Texto que describa la imagen').p-3
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0
-            p.texto-slyder.p-3 Cuando los ingenieros de #[i software], los evaluadores y los administradores de sistemas escuchan por primera vez acerca de la virtualización de servicios, pueden confundirla con la virtualización de servidores o las máquinas virtuales.
+            p.texto-slyder.p-3 Cuando los ingenieros de #[em software], los evaluadores y los administradores de sistemas escuchan por primera vez acerca de la virtualización de servicios, pueden confundirla con la virtualización de servidores o las máquinas virtuales.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema3/tema3-img-09.svg', alt='Texto que describa la imagen').p-3
     
     separador 
-    h2.mb-4 Enfoques #[i Shift Left]
+    h2.mb-4 Enfoques #[em Shift Left]
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-3
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-img-10.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Es un enfoque para realizar pruebas de #[i software] en el que las pruebas se realizan antes en el ciclo de vida. Las prácticas de este enfoque lo que básicamente hacen es integrar sus pruebas en su proceso de desarrollo de #[i software] y, por lo tanto, descubrir errores antes cuando es más fácil y menos costoso repararlos. No realizar un buen diseño puede implicar costos a futuro en términos de tiempo y dinero. Con este enfoque se puede minimizar los errores o defectos de producción y acortar los ciclos de prueba que pueden alargarse.     
+        p.mb-0 Es un enfoque para realizar pruebas de #[em software] en el que las pruebas se realizan antes en el ciclo de vida. Las prácticas de este enfoque lo que básicamente hacen es integrar sus pruebas en su proceso de desarrollo de #[em software] y, por lo tanto, descubrir errores antes cuando es más fácil y menos costoso repararlos. No realizar un buen diseño puede implicar costos a futuro en términos de tiempo y dinero. Con este enfoque se puede minimizar los errores o defectos de producción y acortar los ciclos de prueba que pueden alargarse.     
 
-    p.mb-3 #[i Shift Left] trata de descubrir tantos problemas lo antes posible, en el proceso de desarrollo de #[i software], de modo que el costo de solucionarlos se encuentre bajo control y también contribuya a mejorar la calidad de los productos enviados. Se concentra en hallar errores en las fases de diseño y desarrollo mucho más que en el resto, y así no tener problemas en producción. Veamos los beneficios que aporta:
+    p.mb-3 #[em Shift Left] trata de descubrir tantos problemas lo antes posible, en el proceso de desarrollo de #[em software], de modo que el costo de solucionarlos se encuentre bajo control y también contribuya a mejorar la calidad de los productos enviados. Se concentra en hallar errores en las fases de diseño y desarrollo mucho más que en el resto, y así no tener problemas en producción. Veamos los beneficios que aporta:
 
     .row.justify-content-around.align-items-center.mb-3
       .col-lg-10
@@ -131,14 +131,14 @@
                     img(src="@/assets/curso/temas/tema3/tema3-img-15.svg", alt="alt").img100
                 .col
                   h5 Acelera la entrega
-                  p Permite probar lo antes posible en los #[i #[b pipelines]] de desarrollo.
+                  p Permite probar lo antes posible en los #[em #[b pipelines]] de desarrollo.
 
     h5.mb-3 Implementación 
     
     .row.justify-content-center.mb-5
       .col-lg-11
         .cajon.color-acento-botones.p-3.mb-3 
-          p Estimado aprendiz, lo invitamos a ver el siguiente video en el que se observa el paso a paso en la implementación de las diferentes pruebas, para aplicar con éxito el enfoque #[i Shift Left]:
+          p Estimado aprendiz, lo invitamos a ver el siguiente video en el que se observa el paso a paso en la implementación de las diferentes pruebas, para aplicar con éxito el enfoque #[em Shift Left]:
 
     .row
       figure.mt-3

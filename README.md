@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF19_228125_PRUEBAS_METRICAS/](https://sena-externos.github.io/CF19_228125_PRUEBAS_METRICAS/)
 
 #
 
