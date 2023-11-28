@@ -115,32 +115,32 @@
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/tema4-img-11.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.p-4.text-center Creación sin código. Permite utilizar pruebas de guion gráfico (#[em story-board]) para simplificar la creación de pruebas funcionales y de regresión que combinan texto para pruebas en lenguaje natural con edición visual.
+              p.py-4.text-center Creación sin código. Permite utilizar pruebas de guion gráfico (#[em story-board]) para simplificar la creación de pruebas funcionales y de regresión que combinan texto para pruebas en lenguaje natural con edición visual.
 
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/tema4-img-12.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4            
-              p.p-4.text-center Modelos de carga de trabajo y pruebas de rendimiento visual sin #[em script]. Permite “acelerar” la entrega de conjuntos de pruebas de rendimiento a gran escala con la gestión automática de respuestas de servidor dinámico.
+              p.py-4.text-center Modelos de carga de trabajo y pruebas de rendimiento visual sin #[em script]. Permite “acelerar” la entrega de conjuntos de pruebas de rendimiento a gran escala con la gestión automática de respuestas de servidor dinámico.
 
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/tema4-img-13.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.p-4.text-center Pruebas de integración continuas. Para desarrollar pruebas de nivel de servicio mediante la grabación del comportamiento del sistema actual, utilizando modelos de lenguaje de ejecución de procesos de negocio o el diseñador de pruebas visual.
+              p.py-4.text-center Pruebas de integración continuas. Para desarrollar pruebas de nivel de servicio mediante la grabación del comportamiento del sistema actual, utilizando modelos de lenguaje de ejecución de procesos de negocio o el diseñador de pruebas visual.
           
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/tema4-img-14.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.p-4.text-center Emulación de cargas de trabajo precisa. Para “simplificar” el modelado de diferentes grupos de usuarios y condiciones de carga con el planificador gráfico de cargas de trabajo.
+              p.py-4.text-center Emulación de cargas de trabajo precisa. Para “simplificar” el modelado de diferentes grupos de usuarios y condiciones de carga con el planificador gráfico de cargas de trabajo.
 
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/tema4-img-15.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.p-4.text-center Extensibilidad para estándares y protocolos. Adaptación de los servicios actuales o personalizados con funciones de extensibilidad, incluyendo la inserción de código Java o las transformaciones de datos personalizadas, entre otras.
+              p.py-4.text-center Extensibilidad para estándares y protocolos. Adaptación de los servicios actuales o personalizados con funciones de extensibilidad, incluyendo la inserción de código Java o las transformaciones de datos personalizadas, entre otras.
 
           .tarjeta-avatar
             img(src='@/assets/curso/temas/tema4/tema4-img-16.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4              
-              p.p-4.text-center Establecimiento de precios y despliegue flexibles. Se da la opción de ganar IBM #[em FlexPoints] de agilidad, que se pueden adquirir y asignar de acuerdo con las necesidades exclusivas de su negocio.
+              p.py-4.text-center Establecimiento de precios y despliegue flexibles. Se da la opción de ganar IBM #[em FlexPoints] de agilidad, que se pueden adquirir y asignar de acuerdo con las necesidades exclusivas de su negocio.
 
     p.mb-3 La virtualización de servicios suele confundirse con el Mockeo (Mocking o imitación) y la creación de #[em stubs] de simulación, pero no son lo mismo. Veamos:
 

@@ -105,8 +105,7 @@ export default {
       referencia:
         'Mascheroni, M. A. (2012). <em>Calidad de software e ingeniería de usabilidad.</em>',
       tipo: 'Texto',
-      link:
-        'https://utncomunicacionprofesional.files.wordpress.com/2012/04/ingenieria-de-sitios-web.pdf',
+      link: 'https://core.ac.uk/download/pdf/301039589.pdf',
     },
     {
       tema: 'Pruebas',
@@ -187,7 +186,8 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'IBM. (2022).',
+      referencia:
+        'IBM. (2022).Todo lo que tu empresa puede imaginar con IBM IA.',
       link: 'https://www.ibm.com/',
     },
     {
@@ -199,8 +199,7 @@ export default {
     {
       referencia:
         'Mascheroni, M. A. (2012). <em>Calidad de software e ingeniería de usabilidad</em>.',
-      link:
-        'https://utncomunicacionprofesional.files.wordpress.com/2012/04/ingenieria-de-sitios-web.pdf',
+      link: 'https://core.ac.uk/download/pdf/301039589.pdf',
     },
     {
       referencia:
